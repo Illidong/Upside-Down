@@ -336,7 +336,19 @@
 		"promotions": ["Drill I","Shock I","Great Generals II","Haka War Dance","Woodsman","Amphibious","Cover I"],
 		"attackSound": "shot"
 	},
-	
+{
+		"name": "Cannon",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 14,
+		"rangedStrength": 20,
+		"cost": 185,
+		"requiredTech": "Chemistry",
+		"upgradesTo": "Artillery",
+		"obsoleteTech": "Dynamite", 
+	"uniques": ["+[200]% Strength vs [City]","No defensive terrain bonus","Must set up to ranged attack"],
+	"promotions": ["Logistics","Extended Range","Slinger Withdraw","Accuracy I"],
+	},
 {
 		"name": "Yrlavac",
 		"unitType": "Mounted",
@@ -356,6 +368,17 @@
 	        "promotions": ["Great Generals I"],
 		"attackSound": "horse"
 },
+                "name": "Dalcnori
+		"unitType": "WaterMelee",
+		"movement": 3,
+		"strength": 45,
+		"cost": 250,
+		"requiredTech": "Steam Power",
+		"requiredResource": "Coal",
+		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Combustion",
+		
+			"May withdraw before melee ([80]%)"],"uniques": ["+[33]% Strength vs [City]","Double movement in coast"]
 	{
 		"name": "Rethgif",
 		"unitType": "Fighter",

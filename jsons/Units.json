@@ -92,9 +92,10 @@
 		"requiredTech": "Iron Working",
         "obsoleteTech": "Gunpowder",
 		"upgradesTo": "Longswordsman",
-		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
+		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles",
 			"+[33]% combat bonus in [Forest]",
-			"+[33]% combat bonus in [Jungle]","Heals [25] damage if it kills a unit"],
+			"+[33]% combat bonus in [Jungle]",
+		"Heals [25] damage if it kills a unit"],
 		"promotions": ["Haka War Dance","Woodsman"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -262,21 +263,23 @@
 	},
 	{
 		"name": "Recnal",
-		"unitType": "Mounted",
+		"unitType": "Ranged",
 		"replaces": "Lancer",
 		"uniqueTo": "Upside-Down",
+		"range": 2,
 		"movement": 5,
 		"strength": 25,
+		"rangedStrength": 25,
 		"cost": 185,
 		"requiredTech": "Metallurgy",
         "obsoleteTech": "Combined Arms",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking",
+		"uniques": ["+[50]% Strength vs [Mounted]","Can move after attacking",
 			"No defensive terrain bonus",
-			"-[33]% Strength vs [City]",
-			"+1 Visibility Range",
-			"No movement cost to pillage"],
-		"promotions": ["Formation I"],
+			"Founds a new city",
+			"+2 Visibility Range",
+			"Defense bonus when embarked"],
+		"promotions": ["Formation I","Great Generals I","Quick Study","Accuracy I"]'
 		"upgradesTo": "Anti-Tank Gun",
 		"attackSound": "horse"
 	},
@@ -297,7 +300,8 @@
 			"Double movement in Snow, Tundra and Hills"],
 		"attackSound": "shot"
 	},
-	{
+	
+{
 		"name": "Yrlavac",
 		"unitType": "Mounted",
 		"replaces": "Cavalry",

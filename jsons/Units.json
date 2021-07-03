@@ -300,7 +300,8 @@
 			 "Can move after attacking",
 			"No defensive terrain bonus",
 			"Founds a new city",
-			"+2 Visibility Range",
+			"No movement cost to pillage"
+			"+1 Visibility Range",
 			"Defense bonus when embarked"],
 		"promotions": ["Formation I","Great Generals I","Quick Study"],
 		"upgradesTo": "Anti-Tank Gun",
@@ -352,7 +353,7 @@
 			"No defensive terrain bonus",
 			"-[33]% Strength vs [City]",
 			"+[50]% Strength vs [wounded units]"], 
-	        "promotions": ["Formation I","Great Generals I","Quick Study"],
+	        "promotions": ["Great Generals I"],
 		"attackSound": "horse"
 },
 	{

@@ -43,6 +43,7 @@
         "obsoleteTech": "Chivalry",
 		"upgradesTo": "Knight",
 		"uniques": ["No defensive terrain bonus"],
+		"promotions": ["Accuracy I"],
 		"attackSound": "arrow"
 	},
 	{

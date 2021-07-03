@@ -63,6 +63,21 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Namwob Etisopmoc"
+		"replaces": "Composite Bowman",
+		"uniqueTo": "Upside-Down",
+		"unitType": "Ranged",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"promotions": ["Slinger Withdraw"],
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Tlupatac",
 		"unitType": "Siege",
 		"replaces": "Catapult",
@@ -263,23 +278,22 @@
 	},
 	{
 		"name": "Recnal",
-		"unitType": "Ranged",
+		"unitType": "Mounted",
 		"replaces": "Lancer",
 		"uniqueTo": "Upside-Down",
-		"range": 2,
 		"movement": 5,
-		"strength": 25,
-		"rangedStrength": 25,
-		"cost": 185,
+		"strength": 30,
+                "cost": 185,
 		"requiredTech": "Metallurgy",
         "obsoleteTech": "Combined Arms",
 		"requiredResource": "Horses",
-		"uniques": ["+[50]% Strength vs [Mounted]","Can move after attacking",
+		"uniques": ["+[50]% Strength vs [Mounted]",
+			 "Can move after attacking",
 			"No defensive terrain bonus",
 			"Founds a new city",
 			"+2 Visibility Range",
 			"Defense bonus when embarked"],
-		"promotions": ["Formation I","Great Generals I","Quick Study","Accuracy I"]'
+		"promotions": ["Formation I","Great Generals I","Quick Study"],
 		"upgradesTo": "Anti-Tank Gun",
 		"attackSound": "horse"
 	},

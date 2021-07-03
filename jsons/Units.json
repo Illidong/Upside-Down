@@ -131,7 +131,7 @@
 		"requiredTech": "Machinery",
         "obsoleteTech": "Industrialization",
 		"upgradesTo": "Gatling Gun",
-		"promotions": ["Logistics","Extended Range"],
+		"promotions": ["Logistics","Extended Range","Slinger Withdraw"],
 		"attackSound": "arrow"
 	},
 	{
@@ -201,7 +201,7 @@
 			"Founds a new city",
 			"+2 Visibility Range",
 			"Defense bonus when embarked"],
-        "promotions": ["Great Generals I", "Quick Study", "Accuracy I"],
+        "promotions": ["Great Generals I","Quick Study","Accuracy I"],
 		"attackSound": "arrow"
 	},
 	{

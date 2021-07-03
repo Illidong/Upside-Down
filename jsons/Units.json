@@ -91,11 +91,11 @@
 		"cost": 75,
 		"requiredTech": "Iron Working",
         "obsoleteTech": "Gunpowder",
-		"promotions": ["Haka War Dance","Woodsman"],
 		"upgradesTo": "Longswordsman",
 		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
 			"+[33]% combat bonus in [Forest]",
 			"+[33]% combat bonus in [Jungle]","Heals [25] damage if it kills a unit"],
+		"promotions": ["Haka War Dance","Woodsman"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 		
@@ -163,11 +163,14 @@
         "obsoleteTech": "Gunpowder",
 		"upgradesTo": "Musketman",
 		"requiredResource": "Iron",
-		"uniques": ["Amphibious"],
-        "promotions": ["Shock I", "Great Generals II"],
+		"uniques": ["Amphibious","Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
+			"+[33]% combat bonus in [Forest]",
+			"+[33]% combat bonus in [Jungle]","Heals [25] damage if it kills a unit"],
+                "promotions": ["Shock I","Great Generals II","Haka War Dance","Woodsman"],
 		"attackSound": "metalhit"
 	},
-	{
+	
+{
 		"name": "Namekip",
 		"replaces": "Pikeman",
 		"uniqueTo": "Upside-Down",
@@ -179,6 +182,7 @@
         "obsoleteTech": "Gunpowder",
 		"uniques": ["+[50]% Strength vs [Mounted]","+10 HP when healing","+[300]% Strength vs [City]",
 			"Can move immediately once bought"],
+		"promotions":  ["Cover I"],
 		"upgradesTo": "Musketman",
 		"attackSound": "metalhit"
 	},
@@ -216,7 +220,7 @@
         "obsoleteTech": "Combustion",
 		"upgradesTo": "Ironclad",
 		"uniques": ["+1 Visibility Range",
-			"May withdraw before melee ([50]%)"],
+			"May withdraw before melee ([80]%)"],
 		"hurryCostModifier": 30
 	},
 	{
@@ -224,7 +228,7 @@
 		"unitType": "Melee",
 		"replaces": "Musketman",
 		"uniqueTo": "Upside-Down",
-		"movement": 2,
+		"movement": 3,
 		"strength": 28,
 		"cost": 150,
 		"requiredTech": "Gunpowder",
@@ -233,8 +237,11 @@
 		"uniques": ["+[50]% Strength vs [Mounted]",
 			"Heals [50] damage if it kills a unit",
 			"+[25]% Strength when attacking",
-			"Ignores terrain cost"],
-		"promotions": ["Drill I"],
+			"Ignores terrain cost","Amphibious","Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
+			"+[33]% combat bonus in [Forest]",
+			"+[33]% combat bonus in [Jungle]","10 HP when healing","+[300]% Strength vs [City]",
+			"Can move immediately once bought"],
+		"promotions": ["Drill I","Shock I","Great Generals II","Haka War Dance","Woodsman","Cover I"],
 		"attackSound": "shot"
 	},
 	{

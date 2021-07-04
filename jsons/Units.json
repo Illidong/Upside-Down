@@ -370,6 +370,8 @@
 },
                 "name": "Dalcnori
 		"unitType": "WaterMelee",
+                "replaces": "Ironclad",
+		"uniqueTo": "Upside-Down",
 		"movement": 3,
 		"strength": 45,
 		"cost": 250,
@@ -377,8 +379,12 @@
 		"requiredResource": "Coal",
 		"upgradesTo": "Destroyer",
 		"obsoleteTech": "Combustion",
-		
-			"May withdraw before melee ([80]%)"],"uniques": ["+[33]% Strength vs [City]","Double movement in coast"]
+                "uniques": ["+[33]% Strength vs [City]",
+			"Double movement in coast",
+			 "+1 Visibility Range",
+			  "May withdraw before melee ([80]%)","May capture killed [Water] units"]
+"promotions": ["Coastal Raider I"],
+         },
 	{
 		"name": "Rethgif",
 		"unitType": "Fighter",

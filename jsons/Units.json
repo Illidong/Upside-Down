@@ -368,6 +368,7 @@
 	        "promotions": ["Great Generals I"],
 		"attackSound": "horse"
 },
+{
                 "name": "Dalcnori
 		"unitType": "WaterMelee",
                 "replaces": "Ironclad",
@@ -382,9 +383,9 @@
                 "uniques": ["+[33]% Strength vs [City]",
 			"Double movement in coast",
 			 "+1 Visibility Range",
-			  "May withdraw before melee ([80]%)","May capture killed [Water] units"]
-"promotions": ["Coastal Raider I"],
-         },
+			  "May withdraw before melee ([80]%)","May capture killed [Water] units"],
+                "promotions": ["Coastal Raider I"],
+        },
 	{
 		"name": "Rethgif",
 		"unitType": "Fighter",

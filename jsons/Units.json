@@ -65,12 +65,12 @@
 	},
 	{
 		"name": "Namwob Etisopmoc"
-		"uniqueTo": "Upside-Down",
 		"unitType": "Ranged",
-		"replaces": "Archer",
+		"uniqueTo": "Upside-Down",
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 11,
+		"replaces": "Archer",
 		"cost": 75,
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",

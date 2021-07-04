@@ -65,9 +65,9 @@
 	},
 	{
 		"name": "Namwob Etisopmoc"
-		"replaces": "Composite Bowman",
 		"uniqueTo": "Upside-Down",
 		"unitType": "Ranged",
+		"replaces": "Archer",
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 11,
